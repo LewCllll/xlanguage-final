@@ -379,3 +379,32 @@ label.t-check{
   display:inline-block;
   width:100%;
 }
+
+.extra_info{
+  font-size:1.5em;
+}
+
+.description{
+  display:inline-block;
+  padding:1em 0em;  
+}
+
+.name{
+  font-size:2em;
+}
+
+.extra_info span{
+  margin:0em 1em;
+}
+
+.infoIcon canvas{
+  width:50px;
+  height:50px;
+  border-radius: 10px;
+  background-color:#F2E394;
+  margin:0.5em;
+}
+
+.infoIcon{
+  width:30%;
+}
