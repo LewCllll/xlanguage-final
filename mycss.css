@@ -325,3 +325,84 @@ footer{
 .inviter_name{
 	margin-top:3%;
 }
+--
+.input-lg{
+  width:200px;
+}
+
+.t-check:hover{
+  background-color:#FFFF3F;
+}
+
+input:focus{
+  background-color:#F2E394;
+}
+
+input:checked+.t-check{
+  color:#8c4646;
+  background-color:rgba(300,250,118,0.8);
+  
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[name=language]{
+  display:none;
+}
+
+label.t-check{
+  display:inline-block;
+  width:100%;
+  background-color:rgba(255,255,255,0.3);
+  margin:6px 5px;
+  padding:1em 1em;
+}
+
+.sort{
+  float:right;
+}
+
+.criteria{
+  text-decoration:underline;
+}
+
+.criteria:hover{
+  color:blue;
+}
+
+.profile{
+  display:inline-block;
+  width:100%;
+}
+
+.extra_info{
+  font-size:1.5em;
+}
+
+.description{
+  display:inline-block;
+  padding:1em 0em;  
+}
+
+.name{
+  font-size:2em;
+}
+
+.extra_info span{
+  margin:0em 1em;
+}
+
+.infoIcon canvas{
+  width:50px;
+  height:50px;
+  border-radius: 10px;
+  background-color:#F2E394;
+  margin:0.5em;
+}
+
+.infoIcon{
+  width:30%;
+}
