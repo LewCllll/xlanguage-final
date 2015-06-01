@@ -153,10 +153,7 @@ label.t-check{
   margin:0.5em;
 }
 
-.infoIcon{
-  width:20%;
-}
-
-#profile_pic{
-  width:20%;
+img{
+  max-height:100%;
+  max-width:100%;
 }
